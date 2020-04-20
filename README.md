@@ -1,6 +1,4 @@
-# Couple App
-
-# Local Development
+# Setup
 **Ruby version**: Ruby 2.6.3
 
 **Rails version**: Rails 5.2.4.2
@@ -24,6 +22,25 @@ gem install rails -v 5.2.4
 rbenv rehash
 rails -v
 ```
+
+# Local Development
+
+Start local Puma server on port 3000 with:
+```
+rails server -p 3000
+```
+
+Visit http://localhost:3000/.
+
+---
+
+To listen to JS changes with webpack, run in separate terminal window:
+
+```
+./bin/webpack-dev-server
+```
+
+---
 
 Things you may want to cover:
 
